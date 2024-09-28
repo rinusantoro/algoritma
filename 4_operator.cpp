@@ -8,5 +8,20 @@ int main() {
       cout<<x<<endl; 
     cout<<y<<endl; 
 
+  	x = 5; 
+  	y = 8 - ++x;
+    cout<<x<<endl; 
+    cout<<y<<endl; 
+    
+   x = 5;
+   y = 8 - x--;  
+   cout<<x<<endl; 
+   cout<<y<<endl; 
+   
+    x = 5; 
+    y = 8 - --x;
+    cout<<x<<endl; 
+    cout<<y<<endl; 
+    return 0;
 }
 
